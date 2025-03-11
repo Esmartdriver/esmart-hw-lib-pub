@@ -1,0 +1,216 @@
+(footprint "SOT230P700X180-4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT 2.3mm pitch, 6.7×3.7mm body, 4 pin, sot-223")
+	(tags "sot sot-223")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "cf5efd4b-4504-4642-b42b-a24d7e97bec4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT230P700X180-4"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1e0e671-d3e6-4fa3-9301-3f30a98a7717")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1f6bca8-c3df-4f45-8a64-e903b171ee9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d325ef7-10d6-4ea6-9e17-8c50c3658efa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1543aa6-00df-40cf-aca1-2651a817de41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(net_tie_pad_groups "2,4")
+	(fp_line
+		(start -1.85 -3.35)
+		(end 1.85 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd0dae8d-228f-45c4-bf73-aa8b0c98b2c2")
+	)
+	(fp_line
+		(start -1.85 3.35)
+		(end -1.85 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc4e4d68-743d-4813-9fc6-25308af8872b")
+	)
+	(fp_line
+		(start -1.85 3.35)
+		(end 1.85 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3b265e6-9a7f-4d36-935c-213d55c20d50")
+	)
+	(fp_line
+		(start 1.85 -3.35)
+		(end 1.85 3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0be92b73-3eac-4bba-b5f3-a0021b2311b1")
+	)
+	(fp_poly
+		(pts
+			(xy -4.4 3.6) (xy -4.4 -3.6) (xy 4.4 -3.6) (xy 4.4 3.6)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "06fa8d08-6754-4a68-a28f-3d7383689704")
+	)
+	(fp_poly
+		(pts
+			(xy -1.85 3.35) (xy 1.85 3.35) (xy 1.85 -3.35) (xy -1.25 -3.35) (xy -1.85 -2.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ac1083bc-5488-491b-bb4a-23d8ee9acd27")
+	)
+	(fp_text user "^"
+		(at -3.15 -3.85 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b8a1bcdb-2621-4646-88a5-d01d95b271b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "be255705-9a9d-4699-b81e-f799a3d2735b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 3.15 -1.4)
+		(size 2 1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "f47ca3d7-c07f-4fa4-8358-82cbf9f43317")
+	)
+	(pad "" smd roundrect
+		(at 3.15 0)
+		(size 2 1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "e4417ff6-c831-4b25-951a-5cd16284169a")
+	)
+	(pad "" smd roundrect
+		(at 3.15 1.4)
+		(size 2 1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "bbb668cb-9131-4667-b783-6bced07b4332")
+	)
+	(pad "1" smd roundrect
+		(at -3.15 -2.3)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.03333333333)
+		(uuid "12fc99e1-8056-4c2a-9ab4-e9580134103b")
+	)
+	(pad "2" smd roundrect
+		(at -3.15 0)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.03333333333)
+		(uuid "91bc306a-b9ac-499f-bc16-3fddb5146a91")
+	)
+	(pad "3" smd roundrect
+		(at -3.15 2.3)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.03333333333)
+		(uuid "d0c2efbb-87ea-49f6-845c-fd20c35ff6db")
+	)
+	(pad "4" smd roundrect
+		(at 3.15 0)
+		(size 2 3.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.025)
+		(uuid "12a8a74b-4319-4c53-8353-7df75cd02487")
+	)
+	(model "${REEKILIB}/3dmodel/sot/SOT230P700X180-4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

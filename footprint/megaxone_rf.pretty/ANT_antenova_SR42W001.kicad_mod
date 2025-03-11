@@ -1,0 +1,244 @@
+(footprint "ANT_antenova_SR42W001"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.35 0)
+		(layer "F.SilkS")
+		(uuid "06c5bc2e-1843-4eb5-ba64-97d6523bcc76")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT_antenova_SR42W001"
+		(at 0 6.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af85ccc1-6ca6-424c-a7d9-b6856e12add6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "ANT_antenova_SR42W001"
+		(at 0 5.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3700c669-7b36-4e29-940d-8a77a8d4c817")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4dcbceb-8242-41cd-8413-8f746837e885")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ee27366-dbc1-45ca-845c-ce0b6d478d57")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.65 -2.5)
+		(end -5.65 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51d45003-87f3-436b-a516-8e5f7aded635")
+	)
+	(fp_line
+		(start -5.65 2.5)
+		(end 5.65 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a573c7a-bdea-4826-89f5-169141cbe646")
+	)
+	(fp_line
+		(start 5.65 -2.5)
+		(end -5.65 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97cd116d-4f24-477d-9418-580b609d8bb5")
+	)
+	(fp_line
+		(start 5.65 2.5)
+		(end 5.65 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a7985c6-cff4-43b6-baf2-22bdc0fb37ec")
+	)
+	(fp_rect
+		(start -5.75 -2.6)
+		(end 5.75 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0f18db15-7c3e-4ed6-8aec-86cf5faa53c3")
+	)
+	(fp_line
+		(start -5.65 -2.5)
+		(end 5.65 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ae27471-4a55-4012-baec-1a22aaa8d8ca")
+	)
+	(fp_line
+		(start -5.65 1.9)
+		(end -5.65 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6c7b8be-8bac-4c07-97b2-c606ca05be4e")
+	)
+	(fp_line
+		(start -5.05 2.5)
+		(end -5.65 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ce450f8-4c8a-4b17-b798-2867c9c9b989")
+	)
+	(fp_line
+		(start 5.65 -2.5)
+		(end 5.65 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "931620f7-7044-4501-b02d-87123857b893")
+	)
+	(fp_line
+		(start 5.65 2.5)
+		(end -5.05 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc98357e-e87b-4849-a4e0-e9a82eebce20")
+	)
+	(fp_text user "^"
+		(at -5 3.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4a7c64b9-2073-446f-bf89-c69240feb67e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9f4ce757-977e-48e6-bf6b-df5b27a43cb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.85 1.75)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(uuid "38453f7f-9ed9-419f-b675-c7b33cd72344")
+	)
+	(pad "2" smd rect
+		(at 1.85 1.75)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(uuid "3445bb90-7eed-4e75-b4df-b727ab548abc")
+	)
+	(pad "3" smd rect
+		(at 4.85 1.75)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(uuid "bd01527b-96d1-4449-b308-8d79c5a046a7")
+	)
+	(pad "4" smd rect
+		(at 4.85 -1.75)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(uuid "bec6ec23-ebf3-4a79-aae8-98f21f1cdfbc")
+	)
+	(pad "5" smd rect
+		(at 1.85 -1.75)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(uuid "4e8acff2-5b6a-44b0-82f4-edca6914b26c")
+	)
+	(pad "6" smd rect
+		(at -4.85 -1.75)
+		(size 1.1 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(uuid "8de56977-3aaa-401c-a5bd-b4e020385014")
+	)
+	(model "${REEKILIB}/3dmodel/rf/antenova_SR42W001.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

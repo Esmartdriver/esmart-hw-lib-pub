@@ -1,0 +1,176 @@
+(footprint "CAPC1005"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 1005 metric (0402 imperial)")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "657c21f1-456c-46af-8a27-e014acdde89d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPC1005"
+		(at 0 1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93b448f6-17ee-40fe-813c-cda5f3ae19b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CAPC1005"
+		(at 0 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eece6199-d446-4fb0-94ef-00497ef75064")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "716addc9-93ed-4969-b96b-a5bb2290b297")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f75c919b-ab13-4282-8bbd-237f78896667")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 0.25)
+		(end 0.2 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6210e7c3-248f-45c1-99ed-e08159dff758")
+	)
+	(fp_line
+		(start 0.2 -0.25)
+		(end -0.2 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c825e917-ccd1-448a-b781-e4a692281eff")
+	)
+	(fp_line
+		(start -0.9 -0.4)
+		(end -0.9 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "956a5ca6-2b83-4e22-bb86-58e7edb8e671")
+	)
+	(fp_line
+		(start -0.9 -0.4)
+		(end 0.9 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a99c565-5d62-4ccd-8c0e-46d25fc6c3da")
+	)
+	(fp_line
+		(start 0.9 0.4)
+		(end -0.9 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f531bb31-2461-42d4-a7dd-c8bbab8955dd")
+	)
+	(fp_line
+		(start 0.9 0.4)
+		(end 0.9 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06d0d141-dbda-4166-9044-4ecc7c2d45b1")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 -0.25) (xy 0.5 0.25) (xy -0.5 0.25) (xy -0.5 -0.1) (xy -0.35 -0.25)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9a3b1b29-c503-4774-98b7-a2f0987d9353")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "482399fd-8753-4b1a-bbcd-0ad9543b0b94")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.55 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.08333333333)
+		(uuid "f57faa0c-de7b-494d-bdd1-942084f239ca")
+	)
+	(pad "2" smd roundrect
+		(at 0.55 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.08333333333)
+		(uuid "e2ece079-adc4-484c-8108-aa0a0e05d837")
+	)
+	(model "${REEKILIB}/3dmodel/passive/CAPC1005.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

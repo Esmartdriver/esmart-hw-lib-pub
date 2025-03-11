@@ -1,0 +1,283 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "LM5060"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 7.62 13.97 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LM5060"
+			(at -7.62 13.97 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "reekilib_sop:SOP50P490X300-10"
+			(at 0 -22.86 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5060.pdf?ts=1723548632225&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5060%253Fbm-verify%253DAAQAAAAJ_____wHQZrxOOk8liGyrO6d2VpFbC-YZw2-yZxES_iRVGBFEI88JLnlDDhiqj9SvpbW-S7z6I1yib3SaW8aWSDDqkNNCfHE3z7ucY_gJyqhdoMPDLLh8Ge4xArNHSwLipRhfiRTXfMACr9VyiKzOsYgFhahg7ehFYR0uLsbTGtSkSUpf4MCXy2ljusyexLYMH5m7FzJ_IyggfmVXlYpSrYW0E3docdajtKddYJW4UVfY2doYFHZLdrMmZ9Ru_nwTgIOt0P9UdXJdYRvuRhFKd_U_frefVvyyDaeHx67dwfBQR4-f0Qgb5-VXQHmqc82IVmu1cCH-iJnYvncro_5IziwPRx2et9lVB-hYCXVBNlH9BnimNUNG_xR6Dih9mgaPJm0WSx2shQ"
+			(at 0 -21.59 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ti power switch controller 65V automotive"
+			(at -0.635 -25.4 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM5060MM/NOPB"
+			(at 0 -17.78 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Link" "https://www.ti.com/product/LM5060"
+			(at 0 -24.13 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "power-switch-controller automotive"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM5060_0_1"
+			(rectangle
+				(start -8.89 12.7)
+				(end 8.89 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LM5060_1_1"
+			(pin passive line
+				(at 12.7 10.16 180)
+				(length 3.81)
+				(name "SENSE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 5.08 180)
+				(length 3.81)
+				(name "GATE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 10.16 0)
+				(length 3.81)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -2.54 0)
+				(length 3.81)
+				(name "OVP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 2.54 0)
+				(length 3.81)
+				(name "UVLO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -11.43 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -13.97 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -8.89 180)
+				(length 3.81)
+				(name "TIMER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -12.7 -13.97 0)
+				(length 3.81)
+				(name "~{PGD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 3.81)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+)

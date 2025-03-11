@@ -1,0 +1,125 @@
+(footprint "TP_0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "test-point 0.5mm dia")
+	(tags "test tests testpoint tp")
+	(property "Reference" "REF**"
+		(at 0 -0.8 0)
+		(layer "F.SilkS")
+		(uuid "8cca2c5f-081f-4bb3-a270-5734069427a1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(italic yes)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE} : ${NET_NAME(1)}"
+		(at -3.6 1.475 0)
+		(layer "F.Fab")
+		(uuid "e125ad74-fef7-4c61-8282-d9fedf87cd99")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" "TP_0.5mm"
+		(at 0 2.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee806598-c0ca-410d-927f-640d8e31df0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49b02e39-bfa7-4e9c-b980-547df9f5e072")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "375556e9-7e29-4eb1-88db-cf0e6fde62b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ac3ee723-e910-455f-bb0f-634529d68ca8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.875 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "16104e34-b395-4003-8c2d-8eb99eb66b5d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9617eaff-7fcb-4f3b-ba61-76eab19f5ebb")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "02123cd4-1532-40cb-9c2c-ced00bfda2cb")
+	)
+	(model "${REEKILIB}/3dmodel/mechanical/TP_0.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

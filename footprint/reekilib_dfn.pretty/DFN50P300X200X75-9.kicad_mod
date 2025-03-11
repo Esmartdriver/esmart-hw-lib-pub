@@ -1,0 +1,315 @@
+(footprint "DFN50P300X200X75-9"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "dfn 0.5mm pitch, 3×2×0.75mm body, 8pin+pad")
+	(tags "dfn 9pin 8pin")
+	(property "Reference" "REF**"
+		(at 0 -2.125 0)
+		(layer "F.SilkS")
+		(uuid "c485b949-32d7-4b0b-88f2-0c1883cb8764")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN50P300X200X75-9"
+		(at 0 3.975 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11be15d9-b998-4081-a961-0e723b65dd29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "DFN50P300X200-9"
+		(at 0 2.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa28501e-c2de-453a-b404-7995d24c6cf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48e65c33-368a-43d2-830d-6e86636b0e01")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bb7f5f6-bc65-413a-87f0-442f5f76d5d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1.5)
+		(end 1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e4557b8-b7fb-48ba-ac35-74e015e2690c")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41294300-0e7a-4231-9305-fbfd8adab584")
+	)
+	(fp_line
+		(start -1 1.5)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3d3ee61-3416-4b12-ac06-0c2da7bb3613")
+	)
+	(fp_line
+		(start 1 -1.5)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e2dce13-659a-41e7-a63d-059e2cc06f0c")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a551d77-4a17-4e22-9ab2-e93bea62b7a3")
+	)
+	(fp_line
+		(start 1 1.5)
+		(end -1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66dd6bb1-32f6-47d3-97f6-054f07b928a6")
+	)
+	(fp_poly
+		(pts
+			(xy 1.4 -1.7) (xy -1.4 -1.7) (xy -1.4 1.7) (xy 1.4 1.7)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e8161220-2936-4e77-b0a6-678905cebee3")
+	)
+	(fp_line
+		(start -1 1.5)
+		(end -1 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a0009800-0f65-4a76-81f4-c3d9074f4a92")
+	)
+	(fp_line
+		(start -0.7 -1.5)
+		(end -1 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f89c6f04-9562-473c-b1f5-c45ec8d84926")
+	)
+	(fp_line
+		(start -0.7 -1.5)
+		(end 1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e6c20b3-ccd2-4af7-99e8-32a5defe3374")
+	)
+	(fp_line
+		(start 1 -1.5)
+		(end 1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b1de72a-4c3b-4e8a-9782-f91e2fa5c79d")
+	)
+	(fp_line
+		(start 1 1.5)
+		(end -1 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79faed33-fb7c-417b-a841-03d8ec32f5a2")
+	)
+	(fp_text user "^"
+		(at -2.05 -0.75 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2cad5c04-0b28-4f3e-8b75-168ee998314c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a1552fe3-3ce9-46e0-bb24-a00f3a386eaa")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 0 -0.75 180)
+		(size 0.61 0.5)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "66e2ab18-7224-4443-85b2-b05616a7c5bc")
+	)
+	(pad "" smd roundrect
+		(at 0 0 180)
+		(size 0.61 0.5)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "de14eb12-ca45-48ff-b26c-6f8a63d11403")
+	)
+	(pad "" smd roundrect
+		(at 0 0.75 180)
+		(size 0.61 0.5)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "9c401bea-11e9-4b6a-b1fa-3236d4f952fc")
+	)
+	(pad "1" smd roundrect
+		(at -0.925 -0.75 90)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "b275deff-62e0-412c-a604-974faef8c082")
+	)
+	(pad "2" smd roundrect
+		(at -0.925 -0.25 90)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "dfac923e-3fd5-4f80-9cff-2df63ba4eb29")
+	)
+	(pad "3" smd roundrect
+		(at -0.925 0.25 90)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "0679ad95-fec2-4372-a4b4-733fb2af6d63")
+	)
+	(pad "4" smd roundrect
+		(at -0.925 0.75 90)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "afb00f85-fa07-40cd-93f5-d2b16a2d9af8")
+	)
+	(pad "5" smd roundrect
+		(at 0.925 0.75 90)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "b10dd2a5-3e6b-4425-b858-a93036f3d66c")
+	)
+	(pad "6" smd roundrect
+		(at 0.925 0.25 90)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "52f26341-95d8-4527-afbf-d73e8576232e")
+	)
+	(pad "7" smd roundrect
+		(at 0.925 -0.25 90)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "1d3b84cd-a4db-4c68-9b87-6eb47768278c")
+	)
+	(pad "8" smd roundrect
+		(at 0.925 -0.75 90)
+		(size 0.25 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "1a4a8837-81d5-4389-8bff-375573bed7ee")
+	)
+	(pad "9" smd roundrect
+		(at 0 0 180)
+		(size 0.61 2.2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.08196721311)
+		(chamfer_ratio 0.2)
+		(chamfer bottom_right)
+		(uuid "9545f468-ac54-4b0e-8a42-4cdb9252b884")
+	)
+	(model "${REEKILIB}/3dmodel/dfn/DFN50P300X200X75-9.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

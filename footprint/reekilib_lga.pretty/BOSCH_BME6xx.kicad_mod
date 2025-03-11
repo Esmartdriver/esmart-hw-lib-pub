@@ -1,0 +1,251 @@
+(footprint "BOSCH_BME6xx"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "bosch specific lga atmospheric sensor, 3.0×3.0mm body, 0.8mm pitch")
+	(tags "lga 0.8")
+	(property "Reference" "REF**"
+		(at 0 -2.725 0)
+		(layer "F.SilkS")
+		(uuid "a8ce751b-4855-4832-8755-6f4ab75cc88a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BOSCH_BME6xx"
+		(at 0 2.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14890911-2759-4fe5-b0e7-db4f47ad85ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0.025 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "103ab7d2-de36-4181-b99c-005a83441a5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.025 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5388a81-0869-40ca-a3f2-dbf2fd5b6955")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0.025 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "632d9956-dc54-422e-a6ce-dd8cdc9ae70e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 1.525)
+		(end -1.5 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74d44ceb-131c-4457-819b-42eaeb6eecc0")
+	)
+	(fp_line
+		(start -0.9 -1.475)
+		(end -0.7 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c7bd488-d549-4cf5-a531-1e9b9cf56ed3")
+	)
+	(fp_line
+		(start -0.9 1.525)
+		(end -0.7 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e06ead34-f9a8-412b-8e9d-212ab4b46b4d")
+	)
+	(fp_line
+		(start -0.1 -1.475)
+		(end 0.1 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9f29962-2bee-478c-b0e8-0254735fba75")
+	)
+	(fp_line
+		(start -0.1 1.525)
+		(end 0.1 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "023e029a-51f1-41b0-bf56-c1839d4b055f")
+	)
+	(fp_line
+		(start 0.7 -1.475)
+		(end 0.9 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce60d5ec-0025-4be7-ac99-f981b19d76f8")
+	)
+	(fp_line
+		(start 0.7 1.525)
+		(end 0.9 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78f3f5b6-5654-4792-ac85-630c16d33e53")
+	)
+	(fp_line
+		(start 1.5 -1.475)
+		(end 1.5 1.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "680f014a-1964-4432-b740-90c0f55b5873")
+	)
+	(fp_rect
+		(start -1.75 -2)
+		(end 1.75 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "da22dd1d-4e74-4091-b0c7-e03b855a660c")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5 -1.475) (xy 1.5 1.525) (xy -1.5 1.525) (xy -1.5 -1.225) (xy -1.25 -1.475)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "068f89a2-f274-4ff3-b497-47d4bacf14b7")
+	)
+	(fp_text user "^"
+		(at -1.2 -2.55 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e3c69ab-9508-416c-9534-009960e5e67a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.2 -1.375 90)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "8284699b-5769-4ad9-ae93-f28d4996f4be")
+	)
+	(pad "2" smd roundrect
+		(at -0.4 -1.375 90)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "a5effe9e-ddf8-42cc-8d5d-f3dfc25bcfc1")
+	)
+	(pad "3" smd roundrect
+		(at 0.4 -1.375 90)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "01d4e27c-2eb3-44e2-80a4-1a089c94f988")
+	)
+	(pad "4" smd roundrect
+		(at 1.2 -1.375 90)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "829b6c29-98e7-45a5-beaf-83175c3c6fe3")
+	)
+	(pad "5" smd roundrect
+		(at 1.2 1.425 90)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "bd6dc60d-90a5-43fd-803b-4b9a8d192a04")
+	)
+	(pad "6" smd roundrect
+		(at 0.4 1.425 90)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "c95c2941-0ea0-4a67-b2b4-f9e4ebb25789")
+	)
+	(pad "7" smd roundrect
+		(at -0.4 1.425 90)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "8e165ff2-ef99-4fd2-8b9f-6a083556dde2")
+	)
+	(pad "8" smd roundrect
+		(at -1.2 1.425 90)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "d8d5bdb1-b4e3-4896-9a02-45553123ec02")
+	)
+	(model "${REEKILIB}/3dmodel/other/BME680.step"
+		(offset
+			(xyz 0 -0.01 0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,195 @@
+(footprint "Cree_UHD111A-FKA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.2 0)
+		(layer "F.SilkS")
+		(uuid "d46cf2e1-24c4-4dc6-a5f9-00059de493f4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Cree_UHD111A-FKA"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea632071-ace1-46d7-9d16-5ed2bf662ffc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a1082de-e97d-440b-82f5-fbd8375a3828")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a67c40fb-becb-4cb4-9e6e-9222ea5eccc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e343a2e1-f4b6-45c6-ae2c-3be17d5e93f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 0.1)
+		(end -0.5 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4b6ca5d-a32e-4adc-be0c-9e3fae58b63a")
+	)
+	(fp_line
+		(start -0.1 -0.5)
+		(end 0.1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36c855e5-13d4-4a97-8fa3-358f38d43f04")
+	)
+	(fp_line
+		(start -0.1 0.5)
+		(end 0.1 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9582f764-9adf-4a96-9215-495b3071adc8")
+	)
+	(fp_line
+		(start 0.5 0.1)
+		(end 0.5 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5972c6f-7229-4fc6-9356-5e4176058b52")
+	)
+	(fp_rect
+		(start -0.65 -0.65)
+		(end 0.65 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9ec59a81-c250-4eb9-8efa-e18d0fda0b62")
+	)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.25) (xy -0.5 0.5) (xy 0.5 0.5) (xy 0.5 -0.5) (xy -0.25 -0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6b3610ec-b386-427c-a88c-34480e1d2e16")
+	)
+	(fp_text user "^"
+		(at -0.34 -1.275 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3354c260-da3e-4f1b-9ac9-6f73ccbc889b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a81e83c9-e275-4caf-abbc-26678cbbe826")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.325 -0.325)
+		(size 0.32 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "f53f362c-946b-458a-a420-1003095d08ea")
+	)
+	(pad "2" smd roundrect
+		(at -0.325 0.325)
+		(size 0.32 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "690f7ead-99db-4180-b43d-943c598a8337")
+	)
+	(pad "3" smd roundrect
+		(at 0.325 0.325)
+		(size 0.32 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "8604c3f3-ea6b-4317-9224-f2735cc21008")
+	)
+	(pad "4" smd roundrect
+		(at 0.325 -0.325)
+		(size 0.32 0.32)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.15625)
+		(uuid "b20a95a8-82b7-456d-9174-b75ecaf80fd7")
+	)
+	(model "${REEKILIB}/3dmodel/led/Cree_UHD111A-FKA.step"
+		(offset
+			(xyz 0 0 0.05)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,148 @@
+(footprint "CAPC2012"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 2012 metric (0805 imperial)")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "f5958866-2aea-4f65-9d4e-c29041288f5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAPC2012"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ea43447-d45a-4f9d-8205-db58d9cef5e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CAPC2012"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "032dab77-4903-44ad-8c01-1c0c991c0875")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b81dfd1e-ae49-4f2f-9b4e-fbf84daf958e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22da5109-bbc4-4593-9893-089e15b39009")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.4 0.6)
+		(end 0.4 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6fd048d-66af-4bfd-b74c-f9eb82f26bdc")
+	)
+	(fp_line
+		(start 0.4 -0.6)
+		(end -0.4 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5092a6a-3d67-439b-862c-e1b30b5152b6")
+	)
+	(fp_rect
+		(start 1.6 -0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0dcb0489-fa1c-45d4-981b-bbf98cd2a7fc")
+	)
+	(fp_poly
+		(pts
+			(xy 1 -0.6) (xy 1 0.6) (xy -1 0.6) (xy -1 -0.35) (xy -0.75 -0.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8c61444f-fd58-4d15-a7de-e8b7ef5a285f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c86284d0-86a5-478f-b634-aa10e812e7e6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1 0)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(uuid "4a3ec78a-409c-4096-9376-2c9b16681563")
+	)
+	(pad "2" smd roundrect
+		(at 1 0)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(uuid "3608fceb-1ead-4aff-8a01-17ee1669f556")
+	)
+	(model "${REEKILIB}/3dmodel/passive/CAPC2012.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,166 @@
+(footprint "LED_SMD_1608m-Orange"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.1 0)
+		(layer "F.SilkS")
+		(uuid "6fbb3d0a-7f52-41a4-86c3-a7e6e2a0c68a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_SMD_1608m"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f405657-48ef-4815-b864-9395031d40b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED_SMD_1608m-Orange"
+		(at 0 3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c52bf001-236c-4d08-9ff8-e667722c9bcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1628b35-25bf-48d9-9cb6-580f82fb85a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e028b950-e062-48ad-92f7-c5769ba0ebb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -0.5)
+		(end -1.25 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "becb2c01-9f22-4123-96b5-344436baba95")
+	)
+	(fp_line
+		(start -1.25 0.5)
+		(end 0.15 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62f11f2e-6d99-4feb-82e2-80a98c03a401")
+	)
+	(fp_line
+		(start 0.15 -0.5)
+		(end -1.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e05f1f0b-0c9b-4c6b-8cd7-2de6c5937d25")
+	)
+	(fp_rect
+		(start 1.3 -0.55)
+		(end -1.3 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "bdcac195-1948-4cc3-a320-d8d30e5457e3")
+	)
+	(fp_line
+		(start -0.575 -0.4)
+		(end -0.575 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3c9be6e-fae0-484f-b91f-ea15b88e2845")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8 0.4) (xy -0.8 0.4) (xy -0.8 -0.4) (xy 0.8 -0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cd4d2fde-abba-4219-ba2a-527c92b282d5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 0 0)
+		(layer "F.Fab")
+		(uuid "9a87338b-42ac-45a0-bdc6-b9e52ba49647")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+				(bold yes)
+			)
+		)
+	)
+	(pad "A" smd roundrect
+		(at 0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0625)
+		(uuid "2d4cb5f1-8545-4d4a-b668-6a5efa5cbb05")
+	)
+	(pad "C" smd roundrect
+		(at -0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.0625)
+		(uuid "b45acf27-edfd-45ca-862e-c07d85b4e4a1")
+	)
+	(model "${REEKILIB}/3dmodel/led/LED_1608m_Orange.step"
+		(offset
+			(xyz 0 0 0.23)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

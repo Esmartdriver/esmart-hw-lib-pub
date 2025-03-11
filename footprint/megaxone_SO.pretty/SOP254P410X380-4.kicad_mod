@@ -1,0 +1,182 @@
+(footprint "SOP254P410X380-4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOP, 4 Pin (http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOP SO")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "9e412f7d-6733-4b76-aea7-a14456e7a8bb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOP254P410X380-4"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64d21cfb-5791-462b-989c-bed458c599f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "373068a1-5868-41b5-b92d-ef7e3d978dd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8413cf5-f686-41b4-be50-fabbd9833b48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bc84dfc-9fe4-473a-be66-192b2e6493a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 -2.05)
+		(end -1.9 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53d63477-0597-4c04-9285-09b194a91d34")
+	)
+	(fp_line
+		(start -1.9 -2.05)
+		(end 1.9 -2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f30354ae-38cb-4d84-a5c7-4e7a884ed6b5")
+	)
+	(fp_line
+		(start 1.9 -2.05)
+		(end 1.9 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc272c1e-17f7-4c70-a4a4-0e40ffd87f7b")
+	)
+	(fp_line
+		(start 1.9 2.05)
+		(end -1.9 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f7a545a-a849-4d72-a3bf-2f62e8632d4d")
+	)
+	(fp_poly
+		(pts
+			(xy 3.72 -2.2) (xy 3.72 2.2) (xy -3.72 2.2) (xy -3.72 -2.2)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "72de0ab9-0cea-44f4-85ee-16bbc458ec31")
+	)
+	(fp_poly
+		(pts
+			(xy -0.95 -2.05) (xy -1.9 -1.1) (xy -1.9 2.05) (xy 1.9 2.05) (xy 1.9 -2.05)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "30d478c6-cdb2-4f23-98eb-05a49215d0e4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a7e42dc3-e961-41d6-92ca-881303a84b30")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.75 -1.27)
+		(size 1.45 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.09090909091)
+		(uuid "621edd07-2fdd-45e5-a147-454cd1be7ca6")
+	)
+	(pad "2" smd roundrect
+		(at -2.75 1.27)
+		(size 1.45 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.09090909091)
+		(uuid "7e59ba29-db07-4856-8be5-cdecaac1387c")
+	)
+	(pad "3" smd roundrect
+		(at 2.75 1.27)
+		(size 1.45 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.09090909091)
+		(uuid "c288da2e-cfec-4974-bd5a-f5cccdacd5c5")
+	)
+	(pad "4" smd roundrect
+		(at 2.75 -1.27)
+		(size 1.45 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.09090909091)
+		(uuid "1f1b6d47-7fab-4870-b791-5110503523b4")
+	)
+	(model "${REEKILIB}/3dmodel/sop/SOP254P410X380-4.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

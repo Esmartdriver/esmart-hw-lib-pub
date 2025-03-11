@@ -1,0 +1,290 @@
+(footprint "CNCTech_3220-10-0100-00"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0798f8bd-5bf3-48b2-a889-cee259c4cded")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CNCTech_3220-10-0100-00"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26aa275b-cf7c-4e16-8e1f-3954830b128c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18bef2e9-de59-4740-b191-2d06bf8c3dde")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eeb40d4a-2503-4d1d-a3e6-a90f1c0b7d0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d90b001-0c42-41f1-852a-3119fbb4ac89")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.5 -6.35)
+		(end 2.5 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e806a3e9-0545-4be9-b9ba-25c5015392ae")
+	)
+	(fp_rect
+		(start -2.65 -6.6)
+		(end 2.7 6.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d6c5ef4f-cd64-42c5-a983-04b5b201cab3")
+	)
+	(fp_line
+		(start -2.5 -5.5)
+		(end -1.65 -6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06fd7637-df92-452c-b8bc-eb6c74fbd5c6")
+	)
+	(fp_line
+		(start -2.5 6.35)
+		(end -2.5 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bd7d3d9-9796-47e5-b30f-f1a50ec30ac0")
+	)
+	(fp_line
+		(start -1.65 -6.35)
+		(end 2.5 -6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b725094-874c-4209-81d2-0caaf7a2f14c")
+	)
+	(fp_line
+		(start 2.5 -6.35)
+		(end 2.5 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4552c7cb-2861-4cfc-82be-41ee32f284c0")
+	)
+	(fp_line
+		(start 2.5 6.35)
+		(end -2.5 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ad8ed91-5ef2-408c-b45e-eb26e1d0f0d6")
+	)
+	(fp_text user "^"
+		(at -1.899999 -2.500003 -90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "73298bc1-c995-492b-8180-690df1d8e421")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "^"
+		(at -3.4 -2.5 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "05239aea-5c01-40a9-bf8b-7d6c7b943ebc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f06c8a33-f8cc-462d-a6db-6d42183fefe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -0.625 -2.54)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "1ac9382e-1c8d-46c8-94fe-0eb71f9a26c8")
+	)
+	(pad "2" thru_hole oval
+		(at 0.645 -2.54)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "adc888a2-18f5-4e64-93df-71f9eeb3622b")
+	)
+	(pad "3" thru_hole oval
+		(at -0.625 -1.27)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "86a675cb-911e-48a7-bc33-6793558b7907")
+	)
+	(pad "4" thru_hole oval
+		(at 0.645 -1.27)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "35e93b89-c4be-415d-bf62-f3f3802709c5")
+	)
+	(pad "5" thru_hole oval
+		(at -0.625 0)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "1fc5a105-6a90-4dae-9e00-f781e006adf7")
+	)
+	(pad "6" thru_hole oval
+		(at 0.645 0)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "7c3ffba8-768a-489b-9588-810281ab99cf")
+	)
+	(pad "7" thru_hole oval
+		(at -0.625 1.27)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "62f8bbbb-3002-45b5-b29f-fe0d587275f8")
+	)
+	(pad "8" thru_hole oval
+		(at 0.645 1.27)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "a92bc942-7ce6-499c-9b61-ab211c920430")
+	)
+	(pad "9" thru_hole oval
+		(at -0.625 2.54)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "165c38e5-a5f4-49e8-9f86-0726f0def634")
+	)
+	(pad "10" thru_hole oval
+		(at 0.645 2.54)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "634cb51d-5bc4-4cbd-b5a6-0295eeee0d4b")
+	)
+	(model "${REEKILIB}/3dmodel/connector/CNCTech_3220-10-0100-00.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+	(model "${REEKILIB}/3dmodel/connector/CNCTech_3240-10-00.step"
+		(hide yes)
+		(offset
+			(xyz 10.55 -0.75 1.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

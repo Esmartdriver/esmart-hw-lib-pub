@@ -1,0 +1,126 @@
+(footprint "TP_0.75mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "test-point 0.75mm dia")
+	(tags "test tests testpoint tp")
+	(property "Reference" "REF**"
+		(at 0 -0.9 0)
+		(layer "F.SilkS")
+		(uuid "8702a770-1021-41f9-b3c0-e397d7b79cb0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(italic yes)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE} : ${NET_NAME(1)}"
+		(at -3.075 1.65 0)
+		(layer "F.Fab")
+		(uuid "40b3e72c-02fd-43fa-bee8-d5f753aa5aa8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" "TP_0.75mm"
+		(at 0 2.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ce69063-eb65-4f8f-93c6-3cbf292da405")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b090bbfb-16fd-405a-95e1-1d8c2e998273")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da6be7be-1019-49ff-9c20-6c74e763e898")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e6c9b1d6-07d4-4333-a964-725c1be8ea70")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.875 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8bdc677a-205a-43c3-8740-35df82734161")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f366a2a7-7a87-4201-9ed9-935ee292f160")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.75 0.75)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(uuid "98c12cf1-de27-4f73-9da0-2b5d88cf4921")
+	)
+	(model "${REEKILIB}/3dmodel/mechanical/TP_0.75mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

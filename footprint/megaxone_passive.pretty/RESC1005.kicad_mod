@@ -1,0 +1,176 @@
+(footprint "RESC1005"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 1005 metric (0402 imperial)")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(uuid "c1e8cd34-61c4-44e1-a11d-ed9fd12ac592")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RESC1005"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c2c14da-c233-475d-9e3f-1028e32c6399")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "RESC1005"
+		(at 0 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d08111e-ade0-4425-b84a-8361aa302b22")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acddc874-b396-4276-9ba8-b63494662615")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13aeecee-0ba3-440d-8f35-6fde490c560c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.175 0.25)
+		(end 0.175 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a44482c-94bf-4eec-95c2-ba13ba79cf07")
+	)
+	(fp_line
+		(start 0.175 -0.25)
+		(end -0.175 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7af9bc1-17c7-47c7-80f2-0470b84c0b5e")
+	)
+	(fp_line
+		(start -0.7 -0.4)
+		(end -0.7 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c3814ce-6d87-4cf8-bd2f-28b275162108")
+	)
+	(fp_line
+		(start -0.7 -0.4)
+		(end 0.7 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d02c1303-cfbb-46ad-924e-a098ab0a7497")
+	)
+	(fp_line
+		(start 0.7 0.4)
+		(end -0.7 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fae3cca4-49f5-4b3c-95ac-97aab08133fa")
+	)
+	(fp_line
+		(start 0.7 0.4)
+		(end 0.7 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "352003dd-9e9a-42f2-be18-51b914041da6")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5 -0.25) (xy 0.5 0.25) (xy -0.5 0.25) (xy -0.5 -0.1) (xy -0.35 -0.25)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "86330ecd-c2c7-4302-b919-e865a5706e44")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "923a378f-32be-47f7-8d38-9b635e89af61")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.45 0)
+		(size 0.4 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "537be86e-bd36-4e31-b166-a0bbe0f3802f")
+	)
+	(pad "2" smd roundrect
+		(at 0.45 0)
+		(size 0.4 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "a766a3cb-188f-4c23-a52c-ae5b90593513")
+	)
+	(model "${REEKILIB}/3dmodel/passive/RESC1005.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,167 @@
+(footprint "SOD-923"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "diode sod-923")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(uuid "b7c9700e-2d0b-4024-b2cf-bb83c2a6f6eb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diode_SOD-923"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cc53ebe-d2cb-44a4-826a-9bc78752f18a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79671573-165e-4b73-a99e-a06d378656a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34cbc123-f599-4d91-86ef-bbba0ea8bcf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16476323-b18d-4f0a-8686-35aaddcc7b4a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.3)
+		(end 0.4 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0563582-b9ed-42d5-94cf-33c26cdae565")
+	)
+	(fp_line
+		(start -0.7 0.3)
+		(end -0.7 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd76018e-a74b-4c2e-9b9d-f891f86e6160")
+	)
+	(fp_line
+		(start 0.4 0.3)
+		(end -0.7 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e6dbb5f-4613-4b1a-b710-829ccdf0e9ef")
+	)
+	(fp_rect
+		(start -0.8 -0.425)
+		(end 0.8 0.425)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "dc3dab93-6c75-4257-8609-f94c29157adb")
+	)
+	(fp_line
+		(start -0.25 -0.3)
+		(end -0.25 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bdb76bf-79d9-44d6-ab34-0183c1db5708")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4 -0.3) (xy -0.4 -0.3) (xy -0.4 -0.1) (xy -0.55 -0.1) (xy -0.55 0.1) (xy -0.4 0.1) (xy -0.4 0.3)
+			(xy 0.4 0.3) (xy 0.4 0.1) (xy 0.55 0.1) (xy 0.55 -0.1) (xy 0.4 -0.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "04f03955-887c-4335-a7f5-df6401248ebd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8e14c8b7-7bcd-4dea-8d7f-e4ea3650dee9")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.42 0 180)
+		(size 0.36 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "d0f7d9f2-5f42-4b02-8a20-bc4887c329cf")
+	)
+	(pad "2" smd roundrect
+		(at 0.42 0 180)
+		(size 0.36 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "a49c7efb-3860-4e3d-ba34-0824b6218dab")
+	)
+	(model "${REEKILIB}/3dmodel/sod/SOD-923.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

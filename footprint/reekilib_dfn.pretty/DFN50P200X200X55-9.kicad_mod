@@ -1,0 +1,324 @@
+(footprint "DFN50P200X200X55-9"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "dfn 0.5mm pitch, 2×2×0.55mm body, 8pin+pad")
+	(tags "dfn 0.5 9pin 8pin")
+	(property "Reference" "REF**"
+		(at 0 -1.675 0)
+		(layer "F.SilkS")
+		(uuid "2092f13f-1cf8-4ef0-bd6b-c3fd6601ba14")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN50P200X200X55-9"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d877f1a-d698-48bb-86b0-eb9adba87ece")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "494478cd-b806-44f7-9c95-2ae24a0af464")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1df489fd-0042-49b7-b7cb-826eb31b7293")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d21c1eb7-4b1d-4136-aa4a-45503c2ccea7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1)
+		(end -1 -0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b2d5448-01b4-48e9-be83-c88e22a5e156")
+	)
+	(fp_line
+		(start -1 -0.45)
+		(end -1 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d29fba9e-c5bf-4a39-af8a-88e68be67758")
+	)
+	(fp_line
+		(start -1 -0.05)
+		(end -1 0.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90fe855a-9b3c-4c05-a5e1-d4109486206c")
+	)
+	(fp_line
+		(start -1 0.45)
+		(end -1 0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7f5ec25-23f8-4cb8-ab02-77bbed6d0cdf")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d99f7748-afc4-48d3-b0c8-fd75dee0b18c")
+	)
+	(fp_line
+		(start -1 1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "82482f35-489c-4d93-983d-567256fddf90")
+	)
+	(fp_line
+		(start 1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "060c38e1-d610-473e-8805-c87d7c204cbe")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 -0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "290bfa12-050a-428d-a73c-a560a0640dd0")
+	)
+	(fp_line
+		(start 1 -0.45)
+		(end 1 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e7f58f92-3430-496f-a9e8-41c07771d317")
+	)
+	(fp_line
+		(start 1 -0.05)
+		(end 1 0.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b26fdb75-3370-46e3-9f1d-abeb46e1dcf5")
+	)
+	(fp_line
+		(start 1 0.45)
+		(end 1 0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4d140a33-3ce1-4ef9-b64b-ef05b603b2c3")
+	)
+	(fp_line
+		(start 1 1)
+		(end 1 0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3039210-3ef7-47c1-bb28-c9e5238781b0")
+	)
+	(fp_poly
+		(pts
+			(xy 1.455 -1.15) (xy 1.455 1.15) (xy -1.455 1.15) (xy -1.455 -1.15)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8acab1f0-cc66-43aa-b718-aa6daedf2f92")
+	)
+	(fp_poly
+		(pts
+			(xy 1 -1) (xy -0.5 -1) (xy -1 -0.5) (xy -1 1) (xy 1 1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6a8d9017-60ed-4a3f-aa8b-c23868578393")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6bc483be-57aa-4e2f-a883-3077970a14ec")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 0 -0.65)
+		(size 0.9 0.3)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "5369bf40-ff25-4ae2-9109-69cd2fa2e61b")
+	)
+	(pad "" smd roundrect
+		(at 0 0)
+		(size 0.9 0.4)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "c86080ca-bf82-4d0c-a287-4344ff737b06")
+	)
+	(pad "" smd roundrect
+		(at 0 0.65)
+		(size 0.9 0.3)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "e2b04ef8-5b69-4495-b1d0-c7a268f635d0")
+	)
+	(pad "1" smd roundrect
+		(at -1.0125 -0.75)
+		(size 0.725 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "d9b5ce42-976d-4178-8073-94450156626b")
+	)
+	(pad "2" smd roundrect
+		(at -1.0125 -0.25)
+		(size 0.725 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "89fcdcee-bcc1-49ee-8096-9e2e4da9c472")
+	)
+	(pad "3" smd roundrect
+		(at -1.0125 0.25)
+		(size 0.725 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "5140a638-bce4-4572-b95f-c4328f782646")
+	)
+	(pad "4" smd roundrect
+		(at -1.0125 0.75)
+		(size 0.725 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "9414f710-7d1a-4d04-8ec5-c240b36f383e")
+	)
+	(pad "5" smd roundrect
+		(at 1.0125 0.75)
+		(size 0.725 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "e59fab05-5a3d-47a7-84b8-8f675eb8b825")
+	)
+	(pad "6" smd roundrect
+		(at 1.0125 0.25)
+		(size 0.725 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "20637c54-628b-437f-bc0a-78e1893ca1dc")
+	)
+	(pad "7" smd roundrect
+		(at 1.0125 -0.25)
+		(size 0.725 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "7c1dfc3d-b0d4-4f45-81e8-5d4dd9f3b4d6")
+	)
+	(pad "8" smd roundrect
+		(at 1.0125 -0.75)
+		(size 0.725 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "8d583867-d313-4442-b488-41e3698aef92")
+	)
+	(pad "9" smd roundrect
+		(at 0 0)
+		(size 0.9 1.6)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.05555555556)
+		(zone_connect 2)
+		(uuid "6ecdf9b0-66a7-42a7-a0c2-0e731252992b")
+	)
+	(model "${REEKILIB}/3dmodel/dfn/DFN50P200X200X55-9.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,22 @@
+(footprint "BUMPER_NYL_M3_6mm" (version 20210126) (generator pcbnew) (layer "F.Cu")
+  (tedit 603543A5)
+  (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c7178f35-2f43-4aad-8e91-03f7e1b2d5dc)
+  )
+  (fp_text value "BUMPER_NYL_M3_6mm" (at 0 3.9 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d6efc8bb-8f4e-447a-a4ed-db2401648e1a)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 764b3627-bb00-4d45-a1a5-94b2a413b5bb)
+  )
+  (fp_circle (center 0 0) (end 3.2 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 5ee66752-1da2-46a8-a6ab-8b754c88d3ab))
+  (fp_circle (center 0 0) (end 3.1 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 23327d51-7d92-416d-80d3-20d4e30dc48e))
+  (model "${REEKILIB}/3dmodel/mechanical/Essentra_MTS-8.stp"
+    (offset (xyz 0 0 8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

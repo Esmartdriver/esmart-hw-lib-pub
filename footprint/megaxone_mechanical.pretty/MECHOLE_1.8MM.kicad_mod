@@ -1,0 +1,107 @@
+(footprint "MECHOLE_1.8MM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "0cd2bda5-471d-4cbe-8a15-d8182be539fb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MECHOLE_1.8MM"
+		(at 0 1.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c8598df-1f5f-4041-b6a0-7c22ea92ca6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MECHOLE_1.8MM"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd0c5421-00b8-40ce-b73e-b8c8f7dbda08")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cf60f8b-9506-4b93-b5c7-413fe8884653")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48ddd087-a7a1-4a46-a882-c0f70753426a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "52da8899-c819-40e5-bde5-9a0cbc09dfea")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "84b93837-fa9b-4aa1-89e4-47c3638f760f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0494adc1-c1d2-418c-bdad-bcdb2f78e0c2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "adc9dc2f-f2c4-4acd-815a-42a4c4ee6e4f")
+	)
+)

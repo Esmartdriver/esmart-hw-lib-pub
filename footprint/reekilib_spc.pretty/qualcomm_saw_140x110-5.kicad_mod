@@ -1,0 +1,180 @@
+(footprint "qualcomm_saw_140x110-5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(layer "F.SilkS")
+		(uuid "553f29cf-a10e-45f8-891d-f54ab2665e06")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "qualcomm_saw_140x110-5"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72f5251d-566e-449a-b02f-8f22b23a1f73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6de573c-ddf2-4ffe-914e-050799d03ece")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f527115-5e7c-4e56-969e-ec7ab1b5415c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6953db3f-3cdd-442a-9d89-8d10585912f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.55 -0.7)
+		(end 0.55 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0765ee11-ebcc-4c1f-8bf5-9b84955e405d")
+	)
+	(fp_rect
+		(start -0.7 -0.85)
+		(end 0.7 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e2b9776c-ecb9-4054-b730-112b511aa2ae")
+	)
+	(fp_poly
+		(pts
+			(xy 0.55 -0.7) (xy 0.55 0.7) (xy -0.55 0.7) (xy -0.55 -0.5) (xy -0.35 -0.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c1d05b42-a909-45ec-938e-20015cde1de3")
+	)
+	(fp_text user "^"
+		(at 0 -1.55 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b2151ea2-93f8-44fa-84f6-658bbd71dd67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c63b9361-84fb-40cd-9e42-c5928cda727e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -0.5)
+		(size 0.375 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "ad07ce81-dd2a-48ba-a4b4-425328b9f3f0")
+	)
+	(pad "2" smd roundrect
+		(at -0.2875 0)
+		(size 0.375 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "d5e4f54e-a1e8-4ef5-a8b4-ad94112ca3a6")
+	)
+	(pad "3" smd roundrect
+		(at -0.2875 0.5)
+		(size 0.375 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "2af34ab1-d18f-498b-83ce-c64b9421a118")
+	)
+	(pad "4" smd roundrect
+		(at 0.2875 0.5)
+		(size 0.375 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "f210c544-f88d-476f-aa0d-a1c0f868f596")
+	)
+	(pad "5" smd roundrect
+		(at 0.2875 0)
+		(size 0.375 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1666666667)
+		(thermal_bridge_angle 45)
+		(uuid "f7796bce-8c44-45db-ba28-e27bd101faa4")
+	)
+	(model "${KICADLIB}/3dmodel/rf/qualcomm_saw_140X110-5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

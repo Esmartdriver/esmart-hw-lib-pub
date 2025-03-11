@@ -1,0 +1,81 @@
+(footprint "OSC_2012_4pad" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -1.325 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fdc22f54-f207-4d54-9a00-42e8a5d9f160)
+  )
+  (fp_text value "OSC_2012_4pad" (at 0 1.3 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6adcfa05-53b5-4bb8-9abf-c48fda86da17)
+  )
+  (fp_text user "^" (at -0.75 1.35 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1b8be7ef-0cc9-466d-9bc3-753f1b07fb0f)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+      (effects (font (size 0.4 0.4) (thickness 0.05)))
+    (tstamp 5b969365-655a-4305-9b5d-dc1d402f348b)
+  )
+  (fp_poly
+    (pts
+      (xy -0.5 -0.15)
+      (xy -1 -0.15)
+      (xy -1 -0.6)
+      (xy -0.5 -0.6)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 155ba73a-498d-4722-8e4f-9112808289ab))
+  (fp_poly
+    (pts
+      (xy -0.5 0.6)
+      (xy -1 0.6)
+      (xy -1 0.15)
+      (xy -0.5 0.15)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 53e3c0ca-b315-4470-8ae8-c3302f84e81a))
+  (fp_poly
+    (pts
+      (xy 1 -0.15)
+      (xy 0.5 -0.15)
+      (xy 0.5 -0.6)
+      (xy 1 -0.6)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 17e8295e-0a16-49bc-adb2-f9418998c9eb))
+  (fp_poly
+    (pts
+      (xy 1 0.6)
+      (xy 0.5 0.6)
+      (xy 0.5 0.15)
+      (xy 1 0.15)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp 6c810d38-a0a5-4926-8b1e-d93597e5c2ae))
+  (fp_line (start -0.35 -0.6) (end -0.1 -0.6)
+    (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp 5a8e570e-ffc4-4fc2-953f-5233011f6a88))
+  (fp_line (start 0.1 0.6) (end 0.35 0.6)
+    (stroke (width 0.1) (type solid)) (layer "F.SilkS") (tstamp 5f1d100c-6680-4645-81b7-3795103c43c8))
+  (fp_rect (start 1.15 -0.75) (end -1.15 0.75)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp e234e5ad-05e1-4877-a7ee-0bdaf377f2c1))
+  (fp_poly
+    (pts
+      (xy 1 -0.6)
+      (xy -1 -0.6)
+      (xy -1 0.15)
+      (xy -0.55 0.6)
+      (xy 1 0.6)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 884d48ef-d3b3-4208-967c-197f95826573))
+  (pad "1" smd roundrect (at -0.75 0) (size 0.7 1.3) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.07142857143) (tstamp 00bd729d-1b06-4ee3-8e29-946fc76ebecf))
+  (pad "2" smd roundrect (at -0.075 0.45) (size 0.25 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 1249c17f-7627-43e5-9b83-ae904334c0cd))
+  (pad "3" smd roundrect (at 0.75 0) (size 0.7 1.3) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.07142857143) (tstamp 106b81ea-01cf-4735-ac05-098bafd7e74b))
+  (pad "4" smd roundrect (at 0.075 -0.45) (size 0.25 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp c46c55eb-cd9b-49ca-a9b9-a0d73873ce2b))
+  (model "${REEKILIB}/3dmodel/clock/Crystal2012-2.step"
+    (offset (xyz 0 0 0.01))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

@@ -1,0 +1,22 @@
+(footprint "BUMPER_RUB_M3_6mm_93115K871" (version 20210126) (generator pcbnew) (layer "F.Cu")
+  (tedit 60354636)
+  (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9f360dba-4f18-4d74-9ecf-6fdcc2d653ff)
+  )
+  (fp_text value "BUMPER_RUB_M3_6mm_93115K871" (at 0 5.334 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e090c94f-82da-4d82-84aa-603ee925aef6)
+  )
+  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cd10014a-efc3-46b7-9a6f-2a5d9b007b7b)
+  )
+  (fp_circle (center 0 0) (end 4.2 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 8c310f48-4ab5-45c5-8982-fba9eb1083a3))
+  (fp_circle (center 0 0) (end 4.15 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 9acb46d1-917c-4240-a830-5680c1a8a279))
+  (model "${REEKILIB}/3dmodel/mechanical/BUMPER_RUB_M3_6mm_93115K871.stp"
+    (offset (xyz 0 0 8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
+)

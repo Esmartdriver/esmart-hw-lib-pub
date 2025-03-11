@@ -1,0 +1,246 @@
+(footprint "USB2_A_PLUG_HORZ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "usb2-a plug connector")
+	(tags "usb usb2 usb2.0 plug usba horizontal")
+	(property "Reference" "REF**"
+		(at 0 -6.8 0)
+		(layer "F.SilkS")
+		(uuid "0da9a88b-0358-4211-a2ab-62690d1f9a58")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB2_A_PLUG_HORZ"
+		(at 0 -6.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9461e28-9443-45d5-950e-f4d011dac6e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c887276-a505-438d-9006-a539bd4a47ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c49630e-cf1c-4dc1-99f0-d44ac6c3242b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad2a2625-f12b-4e28-8590-9c987f07ff6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -1)
+		(end -6 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6aae27c6-afdc-441d-941b-d0200d260084")
+	)
+	(fp_line
+		(start 4.8 -3.9)
+		(end -4.8 -3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0ffb676-c173-4961-ae94-058eb13fe644")
+	)
+	(fp_line
+		(start 6 -0.3)
+		(end 6 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79ba67db-0dc3-4953-8375-2c68fd1047da")
+	)
+	(fp_line
+		(start 7.1 -0.1)
+		(end -7.1 -0.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0e5dc7ee-3487-45d2-9be2-e8beaa86ab92")
+	)
+	(fp_rect
+		(start -7.1 -6.1)
+		(end 7.1 15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "83258ffe-38f0-47c9-ba1f-51d33ded2f0d")
+	)
+	(fp_poly
+		(pts
+			(xy 5 -3.9) (xy -6 -3.9) (xy -6 15) (xy 6 15) (xy 6 -2.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c1f65771-dde5-48e5-8594-76524b922047")
+	)
+	(fp_text user "^"
+		(at 5.2 -5 90)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "dc39ca34-c101-4f4a-9509-330941dcfbca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "^"
+		(at 5.2 -5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6789b44b-7fea-414d-b835-ceb2a89026e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f0ff8ef9-8320-47f2-a4a1-a2b75e674bd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at -2.3 -2.9)
+		(size 1.2 1.2)
+		(drill oval 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6724e51c-487f-4711-8473-d8f4fbfd7349")
+	)
+	(pad "" np_thru_hole oval
+		(at 2.3 -2.9)
+		(size 1.2 1.2)
+		(drill oval 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "75e6cfbd-6c15-4437-9b17-92c0ecc8f903")
+	)
+	(pad "1" thru_hole circle
+		(at 3.5 -5)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "c66345a0-b6a6-4098-98f7-9c7a991a5180")
+	)
+	(pad "2" thru_hole circle
+		(at 1 -5)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "9406d365-f8a2-43fb-93cb-40e03130ea31")
+	)
+	(pad "3" thru_hole circle
+		(at -1 -5)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "67d918e8-5a2e-4d4b-b95d-49f7bd2d6006")
+	)
+	(pad "4" thru_hole circle
+		(at -3.5 -5)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "555a7e40-cd89-41d5-9786-63eaf92c620c")
+	)
+	(pad "5" thru_hole oval
+		(at -5.85 -2.9)
+		(size 2 3.5)
+		(drill oval 1 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "5c23770b-fa3f-4f82-a1c1-312b11aed77c")
+	)
+	(pad "5" thru_hole oval
+		(at 5.85 -2.9)
+		(size 2 3.5)
+		(drill oval 1 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "f7af3c23-b707-4737-bc97-c9d21ff20bba")
+	)
+	(model "${REEKILIB}/3dmodel/connector/CUI_UP2-AH-1-TH.step"
+		(offset
+			(xyz 0 -14.9 -0.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
