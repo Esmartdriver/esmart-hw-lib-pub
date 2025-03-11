@@ -1,5 +1,5 @@
 # ESMART-HW-LIB-PUB
-ESMART-HW-LIB-PUB is the public E-SMART hardware part library. It is created for the purpose of holding the hardware parts designed by Laurence Deschênes-Villeneuve and part of his open source library (https://gitlab.com/real-ee/lib/reekilib)[REEKILIB]. The purpose of this repository is to act as a save point for the part used in E-SMART propriatary hardware designs. Since REEKILIB is covered by the [GPL-v3.0][license_GPL] or [contact us][maintainer_email], these hardware parts must be available for public use free of charge. However, anyone who wishes to use, fork or copy the parts and models must respect the GPL-v3.0 license.
+ESMART-HW-LIB-PUB is the public E-SMART hardware part library. It is created for the purpose of holding the hardware parts designed by Laurence Deschênes-Villeneuve and part of his open source library [REEKILIB](https://gitlab.com/real-ee/lib/reekilib). The purpose of this repository is to act as a save point for the part used in E-SMART propriatary hardware designs. Since REEKILIB is covered by the [GPL-v3.0][license_GPL], these hardware parts must be available for public use free of charge. However, anyone who wishes to use, fork or copy the parts and models must respect the GPL-v3.0 license.
 
 **No support, updates, releases or modifications will be made to this repository from the original one.**
 
@@ -33,7 +33,7 @@ This library is mainly aimed at the [stable][kicad_install_link] version (curren
 [reekilib_link]: https://gitlab.com/real-ee/public/reekilib
 [kicad_link]: https://www.kicad.org/
 [freecad_link]: https://www.freecadweb.org/
-[repo_link]: 
+[repo_link]: https://github.com/Esmartdriver/esmart-hw-lib-pub
 
 <!-- doc links -->
 
@@ -41,10 +41,6 @@ This library is mainly aimed at the [stable][kicad_install_link] version (curren
 [kicad_doc_path_link]: https://docs.kicad.org/8.0/en/kicad/kicad.html#paths_configuration
 [kicad_doc_libinstall_link]: https://docs.kicad.org/8.0/en/kicad/kicad.html#libraries-configuration
 [kibot_doc_link]: https://kibot.readthedocs.io/en/master/
-
-<!-- emails -->
-
-[maintainer_email]: mailto:laurence@realee.tech
 
 <!-- files -->
 
