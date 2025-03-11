@@ -1,7 +1,7 @@
 # ESMART-HW-LIB-PUB
 ESMART-HW-LIB-PUB is the public E-SMART hardware part library. It is created for the purpose of holding the hardware parts designed by Laurence Deschênes-Villeneuve and part of his open source library [REEKILIB](https://gitlab.com/real-ee/lib/reekilib). The purpose of this repository is to act as a save point for the part used in E-SMART propriatary hardware designs. Since REEKILIB is covered by the [GPL-v3.0][license_GPL], these hardware parts must be available for public use free of charge. However, anyone who wishes to use, fork or copy the parts and models must respect the GPL-v3.0 license.
 
-**No support, updates, releases or modifications will be made to this repository from the original one.**
+**No support, updates, releases or modifications will be made to this repository from the original release.**
 
 # REEKiLib explained
 
